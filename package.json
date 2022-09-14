@@ -1,0 +1,27 @@
+{
+  "name": "FetchApiBuildInfo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "run": "node ./dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://mygithub.ritscm.xyz/abe/FetchApiBuildInfo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "2",
+    "webpack": "4",
+    "webpack-cli": "3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.0",
+    "@babel/preset-env": "^7.19.0",
+    "babel-loader": "^8.2.5"
+  }
+}
